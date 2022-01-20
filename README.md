@@ -1,1 +1,21 @@
-# sooof-011722-U4W42D1-node-db1-guided
+# Introduction to Relational Databases, SQL and Knex
+
+In this project we will cover the basics of `Structure Query Language (SQL)`, `Relational Databases`, and `Knex.js Queries`.
+
+## Prerequisites
+
+- [SQLite Studio Installed](https://sqlitestudio.pl/index.rvt?act=download).
+
+## Project Setup
+
+- [ ] clone this repository.
+- [ ] move into the project folder.
+- [ ] type `npm i` to download dependencies.
+- [ ] type `npm run server` to start the dev server.
+
+## Coding Along
+
+Before using the following scripts it's recommended to remove the database from SQLite Studio.
+
+- [ ] type `npm run resetdb` to reset the database to its initial state.
+- [ ] type `npm run ketchup` to hard reset your code to the instructor's remote branch.
