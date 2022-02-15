@@ -19,3 +19,12 @@ Before using the following scripts it's recommended to remove the database from 
 
 - [ ] type `npm run resetdb` to reset the database to its initial state.
 - [ ] type `npm run ketchup` to hard reset your code to the instructor's remote branch.
+
+
+```
+select EmployEEID+1000, firstname, lastName from employees;
+SELECT (firstname || ' ' || lastName) from employees;
+SELECT (firstname || ' --- ' || lastName) from employees;
+SELECT * FROM customers where city LIKE '%nn%';
+SELECT contactname, customerid FROM customers where customerid > 10 ;
+```

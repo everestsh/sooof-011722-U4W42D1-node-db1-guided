@@ -5,6 +5,7 @@ const { checkId, checkPayload } = require('./shippers-middleware')
 const router = express.Router()
 
 router.get('/', async (req, res, next) => {
+  // res.send("get /api/shippers")
   try {
     const data = await Shipper.get()
     res.json(data)
