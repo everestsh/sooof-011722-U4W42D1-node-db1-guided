@@ -27,4 +27,10 @@ SELECT (firstname || ' ' || lastName) from employees;
 SELECT (firstname || ' --- ' || lastName) from employees;
 SELECT * FROM customers where city LIKE '%nn%';
 SELECT contactname, customerid FROM customers where customerid > 10 ;
+
+Server-Side Routing with Express w49
+https://bloomtech-1.wistia.com/medias/b1m6quvixg
+
+Web50 4.2: Intro to Relational Databases w/ James Blacklock
+https://www.youtube.com/watch?v=W4M-CoS5bjY
 ```
